@@ -1,6 +1,5 @@
-# Python 3.14 (Arch Linux)
-# 使用 tf-nightly 因为稳定版不支持 Python 3.14
-tf-nightly
+# TensorFlow 2.10 for Windows GPU support (or use tf-nightly for latest)
+tensorflow==2.10
 numpy>=1.26
 pandas>=2.0
 matplotlib>=3.7
