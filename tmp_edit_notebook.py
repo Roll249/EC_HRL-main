@@ -1,7 +1,7 @@
 ﻿from pathlib import Path
 import json
 
-path = Path(r"C:\Users\X270\Downloads\EC_HRL-main\EC_HRL-main\super_lag.ipynb")
+path = Path(r"/home/khang/khang_lab/EC_HRL-main/super_lag.ipynb")
 nb = json.loads(path.read_text(encoding='utf-8'))
 
 

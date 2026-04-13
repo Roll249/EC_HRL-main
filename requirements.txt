@@ -1,7 +1,7 @@
-# Python 3.10–3.11 on Windows; reinstall in a clean venv if import tensorflow fails (e.g. No module named 'tensorflow.python').
-
-tensorflow>=2.15,<2.20
-numpy>=1.23,<3
+# Python 3.14 (Arch Linux)
+# 使用 tf-nightly 因为稳定版不支持 Python 3.14
+tf-nightly
+numpy>=1.26
 pandas>=2.0
 matplotlib>=3.7
 scipy>=1.10
