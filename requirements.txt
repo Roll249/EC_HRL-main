@@ -1,0 +1,10 @@
+# Python 3.10–3.11 on Windows; reinstall in a clean venv if import tensorflow fails (e.g. No module named 'tensorflow.python').
+
+tensorflow>=2.15,<2.20
+numpy>=1.23,<3
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
+ipython>=8.0
+jupyter>=1.0.0
+ipykernel>=6.0
